@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+     tools:context=".MainActivity">
+      <item android:id="@+id/action_list"
+            android:title="Settings"
+            android:orderInCategory="100"
+            app:showAsAction="always"
+            android:icon="@drawable/application_view_list"/>
+      <item android:id="@+id/action_add"
+            android:title="About"
+            android:icon="@drawable/accept"
+            android:orderInCategory="100"
+            app:showAsAction="always"/>
+</menu>

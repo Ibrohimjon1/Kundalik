@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view_qarzim_item"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@color/kulrang" />
+
+        <LinearLayout
+            android:id="@+id/layout_qarzim_tanish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/text_tanish"
+                android:textColor="@color/qizil"
+                android:textSize="@dimen/text_size30" />
+
+            <AutoCompleteTextView
+                android:id="@+id/avto_qarzim_item_qarzdor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_5"
+                android:background="@drawable/round_layout"
+                android:hint="@string/text_qarzdor"
+                android:padding="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_5"
+                android:textColor="@color/qora"
+                android:textSize="@dimen/text_size30" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_qarzim_summa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/text_summa"
+                android:id="@+id/txt_add_item_summa"
+                android:textColor="@color/qizil"
+                android:textSize="@dimen/text_size30" />
+
+            <EditText
+                android:id="@+id/edt_qarzim_item_summa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_weight="1"
+                android:background="@drawable/round_layout"
+                android:gravity="right"
+                android:hint="@string/text_summa"
+                android:inputType="numberDecimal"
+                android:padding="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:textColor="@color/qora"
+                android:textSize="@dimen/text_size30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_qarzim_izox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="4dp"
+                android:text="Izox      "
+                android:textColor="@color/qizil"
+                android:textSize="@dimen/text_size30" />
+
+            <EditText
+                android:id="@+id/edt_qarzim_item_izox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_weight="1"
+                android:background="@drawable/round_layout"
+                android:gravity="right"
+                android:hint="Izox"
+                android:padding="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:textColor="@color/qora"
+                android:textSize="@dimen/text_size30" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

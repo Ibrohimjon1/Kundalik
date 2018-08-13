@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ibrohimjon.kundalik.Qarzdorlar_izox">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/btn_qarz_izox_ozgartir"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="@dimen/margin_10"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozgartirish_image" />
+
+                <TextView
+                    android:id="@+id/txt_qarz_izox_sana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginRight="3dp"
+                    android:gravity="center"
+                    android:text="15.05.2018"
+                    android:textColor="#ff0"
+                    android:textSize="@dimen/text_size30"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_qarz_izox_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="id"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_tanish"
+                    android:textColor="@color/qizil"
+                    android:textSize="@dimen/text_size30" />
+
+                <TextView
+                    android:id="@+id/txt_qarz_izox_ism"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="right|center_vertical"
+                    android:text="Abdullo"
+                    android:textColor="@color/oq"
+                    android:textSize="@dimen/text_size30" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_summa"
+                    android:textColor="@color/qizil"
+                    android:textSize="@dimen/text_size30" />
+
+                <TextView
+                    android:id="@+id/txt_qarz_izox_summa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical|right"
+                    android:text="945.000"
+                    android:textColor="@color/oq"
+                    android:textSize="@dimen/text_size30" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="@dimen/margin_15"
+                android:layout_marginRight="3dp"
+                android:text="Izox"
+                android:textColor="@color/qizil"
+                android:textSize="@dimen/text_size30" />
+
+            <TextView
+                android:id="@+id/txt_qarz_izox_izox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginRight="3dp"
+                android:gravity="center"
+                android:background="@drawable/round_layout"
+                android:paddingBottom="@dimen/margin_5"
+                android:text="34 00 ga paynet qilddsdssdsi"
+                android:textColor="@color/qora"
+                android:textSize="@dimen/text_size30" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

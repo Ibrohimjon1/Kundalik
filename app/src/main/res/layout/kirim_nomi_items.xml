@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asosiyFon"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout_kirim_item"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_kirim_item_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_kirim_rasm"
+                android:layout_width="@dimen/margin_60"
+                android:layout_height="@dimen/margin_60"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/margin_10"
+                android:src="@drawable/kulrang" />
+
+            <TextView
+                android:id="@+id/txt_kirim_harf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/text_id"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size40"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_kirim_tartib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_id"
+            android:textColor="@color/qizil"
+            android:textSize="@dimen/text_size30" />
+
+        <TextView
+            android:id="@+id/txt_kirim_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/text_shot_nomi"
+            android:textColor="@color/oq"
+            android:textSize="@dimen/text_size30" />
+    </LinearLayout>
+</LinearLayout>

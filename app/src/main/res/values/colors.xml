@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="asosiyFon">#000000</color>
+    
+    <color name="qizil">#ff0000</color>
+    <color name="qora">#000000</color>
+    <color name="btn_color">#565656</color>
+    <color name="oq">#ffffff</color>
+    <color name="kulrang">#FF888888</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btn_set_dok_nomi"
+            android:icon="@drawable/ic_location"
+            android:title="Do'kon nomlari" />
+        <item
+            android:id="@+id/btn_set_shot_nomi"
+            android:icon="@drawable/ic_swap"
+            android:title="Sho't nomlari" />
+        <item
+            android:id="@+id/btn_set_kirim_nomi"
+            android:icon="@drawable/ic_thumb_up"
+            android:title="Kirim nomlari" />
+        <item
+            android:id="@+id/btn_set_chiqim_nomi"
+            android:icon="@drawable/ic_thumb_down"
+            android:title="Chiqim nomlari" />
+        <item
+            android:id="@+id/btn_set_tanishlar"
+            android:icon="@drawable/ic_people"
+            android:title="Tanishlar ro'yhati" />
+    </group>
+
+    <item android:title="Qo'shimchalar">
+        <menu>
+            <item
+                android:id="@+id/btn_set_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Sozlamalar" />
+            <item
+                android:id="@+id/btn_set_about"
+                android:icon="@drawable/ic_help"
+                android:title="Dastur haqida" />
+        </menu>
+    </item>
+
+</menu>

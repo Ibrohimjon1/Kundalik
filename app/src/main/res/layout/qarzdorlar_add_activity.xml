@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asosiyFon"
+    android:orientation="vertical"
+    tools:context=".Qarzdorlar_add">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_60">
+
+        <GridLayout
+            android:id="@+id/grid_layout_qarz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_tanish"
+                    android:textColor="@color/qizil"
+                    android:textSize="@dimen/text_size30" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/auto_qarzdor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_20"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:background="@drawable/round_layout"
+                    android:hint="@string/text_qarzdor"
+                    android:padding="@dimen/margin_5"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:textColor="@color/qora"
+                    android:textSize="@dimen/text_size30" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_Main1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_summa"
+                    android:id="@+id/txt_add_summa"
+                    android:textColor="@color/qizil"
+                    android:textSize="@dimen/text_size30" />
+
+                <EditText
+                    android:id="@+id/edt_qarzdor_summa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_layout"
+                    android:gravity="right"
+                    android:hint="@string/text_summa"
+                    android:padding="@dimen/margin_5"
+                    android:inputType="numberDecimal"
+                    android:paddingRight="@dimen/margin_5"
+                    android:textColor="@color/qora"
+                    android:textSize="@dimen/text_size30" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_qa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="3dp"
+                    android:text="Izox      "
+                    android:textColor="@color/qizil"
+                    android:textSize="@dimen/text_size30" />
+
+                <EditText
+                    android:id="@+id/edt_qarzdor_izox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_layout"
+                    android:gravity="right"
+                    android:hint="Izox"
+                    android:padding="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:textColor="@color/qora"
+                    android:textSize="@dimen/text_size30" />
+
+            </LinearLayout>
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btn_qarz_add_p"
+        android:layout_width="@dimen/margin_60"
+        android:layout_height="@dimen/margin_60"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/rang"
+        android:src="@drawable/ic_add_black_24dp" />
+
+</RelativeLayout>

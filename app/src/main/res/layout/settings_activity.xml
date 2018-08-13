@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asosiyFon"
+    tools:context=".Settings">
+
+    <Button
+        android:id="@+id/btn_set_dok_nomi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounbtnn"
+        android:text="@string/text_dokon_nomlari"
+        android:textColor="@color/oq"
+        android:textSize="@dimen/text_size25" />
+
+    <Button
+        android:id="@+id/btn_set_shot_nomi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_set_dok_nomi1"
+        android:layout_marginTop="@dimen/margin_15"
+        android:background="@drawable/rounbtnn"
+        android:text="@string/text_shot_nomlari"
+        android:textColor="@color/oq"
+        android:textSize="@dimen/text_size25" />
+
+    <Button
+        android:id="@+id/btn_set_kirim_nomi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_set_shot_nomi1"
+        android:layout_marginTop="@dimen/margin_15"
+        android:background="@drawable/rounbtnn"
+        android:text="@string/text_kirim_nomlari"
+        android:textColor="@color/oq"
+        android:textSize="@dimen/text_size25" />
+
+    <Button
+        android:id="@+id/btn_set_chiqim_nomi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_set_kirim_nomi1"
+        android:layout_marginTop="@dimen/margin_15"
+        android:background="@drawable/rounbtnn"
+        android:text="@string/text_chiqim_nomlari"
+        android:textColor="@color/oq"
+        android:textSize="@dimen/text_size25" />
+
+    <Button
+        android:id="@+id/btn_set_tanishlar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_set_chiqim_nomi1"
+        android:layout_marginTop="@dimen/margin_15"
+        android:background="@drawable/rounbtnn"
+        android:text="@string/text_tanishlar_ro_yhati"
+        android:textColor="@color/oq"
+        android:textSize="@dimen/text_size25" />
+</RelativeLayout>

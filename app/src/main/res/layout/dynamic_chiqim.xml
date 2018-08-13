@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/asosiyFon"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_10"
+        android:id="@+id/liniya1"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/kulrang" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/liniya1"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/margin_5"
+            android:id="@+id/Chiqim_dyn_dok_nom"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/text_size35"
+            android:textColor="@color/qizil"
+            android:text="@string/text_dokon_nomi"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_chiqim_dyn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:hint="@string/text_chiqim"
+                android:layout_weight="1"
+                android:padding="@dimen/margin_5"
+                android:background="@drawable/round_layout"
+                android:textColor="@color/qora"
+                android:completionThreshold="1"
+                android:layout_marginTop="@dimen/margin_10"
+                android:textSize="@dimen/text_size30" />
+
+            <EditText
+                android:id="@+id/edt_chiqim_dyn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="right"
+                android:padding="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:background="@drawable/round_layout"
+                android:inputType="numberDecimal"
+                android:hint="@string/text_summa"
+                android:textColor="@color/qora"
+                android:textSize="@dimen/text_size30" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

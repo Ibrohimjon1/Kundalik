@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Kundalik</string>
+    <string name="ogohlantirish">Ogohlantirish</string>
+    <string name="muvaf_saqlash">Muvaffaqqiyatli saqlandi!</string>
+    <string name="text_savdo">Savdo</string>
+    <string name="text_kirim">Kirim</string>
+    <string name="text_qarzdorlar">Qarzdorlar</string>
+    <string name="text_chiqim">Chiqim</string>
+    <string name="text_hisobot">Hisobot</string>
+    <string name="text_sozlama">Sozlama</string>
+    <string name="text_chiqim_nomi">Chiqim nomi</string>
+    <string name="text_dokon_nomi">Do\'kon nomi</string>
+    <string name="text_summa">Summa</string>
+    <string name="text_qoshimcha_qoshish">Qo\'shimcha qo\'shish</string>
+    <string name="text_oxirgiga_qo_shish">Oxirgiga qo\'shish</string>
+    <string name="text_bosh_sana">Bosh.sana</string>
+    <string name="text_05_01_2018">05.01.2018</string>
+    <string name="text_tug_sana">Tug.sana</string>
+    <string name="text_10_01_2018">10.01.2018</string>
+    <string name="text_hamma_do_konlar">Hamma do\'konlar</string>
+    <string name="text_alohida_do_kon">Alohida do\'kon</string>
+    <string name="text_kirim_nomi">Kirim nomi</string>
+    <string name="text_hammasi">Hammasi</string>
+    <string name="text_id">id</string>
+    <string name="text_shot_nomi">Shot nomi</string>
+    <string name="text_updating">O\'zgarmoqda</string>
+    <string name="text_back">Orqaga</string>
+    <string name="text_update">O\'zgartir</string>
+    <string name="text_tanish">Tanish</string>
+    <string name="text_qarzdor">Qarzdor</string>
+    <string name="text_qidirish">Qidirish...</string>
+    <string name="text_dokon_nomlari">Do\'kon nomlari</string>
+    <string name="text_shot_nomlari">Shot nomlari</string>
+    <string name="text_kirim_nomlari">Kirim nomlari</string>
+    <string name="text_chiqim_nomlari">Chiqim nomlari</string>
+    <string name="text_tanishlar_ro_yhati">Tanishlar ro\'yhati</string>
+
+    <string name="navigation_drawer_open">Navigatorni ochmoq</string>
+    <string name="navigation_drawer_close">Navigatorni yopmoq</string>
+</resources>

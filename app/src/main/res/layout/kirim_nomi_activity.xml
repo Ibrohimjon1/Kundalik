@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asosiyFon"
+    tools:context="com.example.ibrohimjon.kundalik.Kirim_nomi">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_kirim_nomi_tanish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10"
+            android:textColor="@color/oq"
+            android:textSize="@dimen/text_size22"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/kirim_nomi_liniya"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/margin_5"
+            android:layout_below="@id/txt_kirim_nomi_tanish"
+            android:background="@color/qora"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_kirim_nomi_yoq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/qizil"
+            android:textSize="@dimen/text_size22"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layou1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_below="@id/kirim_nomi_liniya"
+            android:weightSum="1">
+
+            <CheckBox
+                android:id="@+id/select_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_5"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:text="@string/text_hammasi"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edt_kirim_nomi"
+                android:layout_width="0dp"
+                android:background="@drawable/round_layout"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/margin_5"
+                android:paddingLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/text_kirim_nomi"
+                android:textColor="@color/qora"
+                android:textSize="@dimen/text_size25"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/margin_5" />
+
+            <ImageButton
+                android:id="@+id/btn_kirim_filter"
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/rounbtnn"
+                android:src="@drawable/sort_desc" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/gview_kirim_nomi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_60"
+            android:layout_below="@id/layou1"
+            android:divider="@color/kulrang"
+            android:dividerHeight="2dp">
+
+        </ListView>
+
+        <ImageView
+            android:id="@+id/btn_kirim_add_p0"
+            android:layout_width="@dimen/margin_60"
+            android:layout_height="@dimen/margin_60"
+            android:background="@drawable/rang"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/margin_5"
+            android:src="@drawable/ic_add_black_24dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asosiyFon"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_dyn"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Id_dyn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/DokonNomi_dyn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/text_dokon_nomi"
+            android:textColor="@color/qizil"
+            android:textSize="@dimen/text_size35"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:layout_marginStart="@dimen/margin_10" />
+
+        <View
+            android:id="@+id/view_liniyaa"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_5"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:background="@color/kulrang"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ShotNomi_dyn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/text_shot_nomi"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25" />
+
+            <TextView
+                android:id="@+id/Summa_dyn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/margin_10"
+                android:gravity="right"
+                android:text="@string/text_summa"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size30"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

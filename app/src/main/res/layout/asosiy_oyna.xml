@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/asosiyFon"
+    android:orientation="vertical"
+    tools:context="com.example.ibrohimjon.kundalik.AsosiyOyna">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btnSavdo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/roundbtn"
+                android:contentDescription="@string/text_savdo"
+                android:focusable="false"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/savdo" />
+
+            <TextView
+                android:id="@+id/txtSavdo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/text_savdo"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btnKirim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/roundbtn"
+                android:contentDescription="@string/text_kirim"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kirim_image" />
+
+            <TextView
+                android:id="@+id/txtKirim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/text_kirim"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btnQarzdorlik"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:background="@drawable/roundbtn"
+                android:contentDescription="@string/text_qarzdorlar"
+                android:scaleType="fitCenter"
+                android:src="@drawable/qarzdorrr" />
+
+            <TextView
+                android:id="@+id/txtQarzdorlik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/text_qarzdorlar"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btnChiqim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:background="@drawable/roundbtn"
+                android:contentDescription="@string/text_chiqim"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chiqim" />
+
+            <TextView
+                android:id="@+id/txtChiqim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/text_chiqim"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btnHisobot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/roundbtn"
+                android:contentDescription="@string/text_hisobot"
+                android:focusable="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hisobot" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/text_hisobot"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btnSettings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:background="@drawable/roundbtn"
+                android:contentDescription="@string/text_sozlama"
+                android:scaleType="fitCenter"
+                android:src="@drawable/qarzlarim" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Qarzlarim"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/oq"
+                android:textSize="@dimen/text_size25" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

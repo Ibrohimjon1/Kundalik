@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asosiyFon">
+
+    <LinearLayout
+        android:id="@+id/layou5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <CheckBox
+            android:id="@+id/select_all_qarz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_5"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:text="@string/text_hammasi"
+            android:textColor="@color/oq"
+            android:textSize="@dimen/text_size25"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/edt_qarz_nomi"
+            android:layout_width="0dp"
+            android:paddingLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/round_layout"
+            android:hint="@string/text_qidirish"
+            android:textColor="@color/qora"
+            android:textSize="@dimen/text_size25" />
+
+        <ImageButton
+            android:id="@+id/btn_qarz_filter"
+            android:layout_width="@dimen/margin_50"
+            android:layout_height="@dimen/margin_50"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounbtnn"
+            android:src="@drawable/sort_desc" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/gview_qarz_nomi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layou5"
+        android:divider="@color/kulrang"
+        android:dividerHeight="2dp">
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asosiyFon">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_qarz_update_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="id"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout7_yan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_yang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_10"
+                        android:text="@string/text_updating"
+                        android:textColor="@color/oq"
+                        android:textSize="@dimen/text_size30"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_qarz_update_sana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/margin_10"
+                        android:text="@string/text_05_01_2018"
+                        android:textColor="@color/oq"
+                        android:textSize="@dimen/text_size25" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6_yan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout7_yan"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_15"
+                    android:background="@color/qora" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:gravity="center"
+                        android:text="@string/text_tanish"
+                        android:textColor="@color/qizil"
+                        android:textSize="@dimen/text_size30" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/qarz_update_auto_tanish"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:background="@drawable/round_layout"
+                        android:hint="@string/text_qarzdor"
+                        android:padding="@dimen/margin_5"
+                        android:paddingLeft="@dimen/margin_5"
+                        android:textColor="@color/qora"
+                        android:textSize="@dimen/text_size30" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:gravity="center"
+                        android:id="@+id/txt_update_summa"
+                        android:text="@string/text_summa"
+                        android:textColor="@color/qizil"
+                        android:textSize="@dimen/text_size30" />
+
+                    <EditText
+                        android:id="@+id/edt_qarz_update_summa"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_layout"
+                        android:gravity="right"
+                        android:hint="@string/text_summa"
+                        android:inputType="numberDecimal"
+                        android:padding="@dimen/margin_5"
+                        android:paddingRight="@dimen/margin_5"
+                        android:textColor="@color/qora"
+                        android:textSize="@dimen/text_size30" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:gravity="center"
+                        android:text="Izox"
+                        android:textColor="@color/qizil"
+                        android:textSize="@dimen/text_size30" />
+
+                    <EditText
+                        android:id="@+id/edt_qarz_update_izox"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_layout"
+                        android:hint="Izox"
+                        android:padding="@dimen/margin_5"
+                        android:paddingRight="@dimen/margin_5"
+                        android:textColor="@color/qora"
+                        android:textSize="@dimen/text_size30" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout6_yan"
+                android:layout_marginTop="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_qarz_update_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounbtnn"
+                    android:text="@string/text_back"
+                    android:textColor="@color/oq"
+                    android:textSize="@dimen/text_size25" />
+
+                <Button
+                    android:id="@+id/btn_qarz_update_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounbtnn"
+                    android:text="@string/text_update"
+                    android:textColor="@color/oq"
+                    android:textSize="@dimen/text_size25"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

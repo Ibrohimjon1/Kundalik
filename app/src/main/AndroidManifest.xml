@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ibrohimjon.kundalik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_qora"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_qora_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AsosiyOyna"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Kirim_Add"
+            android:label="Kirim registratsiyasi"
+            android:parentActivityName=".Kirim_sana"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Kirim_sana"></meta-data>
+        </activity>
+        <activity
+            android:name=".BoshOyna"
+            android:label="Dastur haqida"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Savdo_Add"
+            android:label="Savdo registratsiyasi"
+            android:parentActivityName=".Savdo_sana_yangi"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Savdo_sana_yangi"></meta-data>
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="Sozlamalar"
+            android:parentActivityName=".AsosiyOyna"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AsosiyOyna"></meta-data>
+        </activity>
+        <activity
+            android:name=".Dok_nomi"
+            android:label="Do&apos;kon nomi registratsiyasi"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Settings"></meta-data>
+        </activity>
+        <activity
+            android:name=".Shot_nomi"
+            android:label="Shot nomi registratsiyasi"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Settings"></meta-data>
+        </activity>
+        <activity
+            android:name=".Chiqim_Add"
+            android:label="Chiqim registratsiyasi"
+            android:parentActivityName=".Chiqim_sana"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Chiqim_sana"></meta-data>
+        </activity>
+        <activity
+            android:name=".Chiqim_nomi"
+            android:label="Chiqim nomi registratsiyasi"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Settings"></meta-data>
+        </activity>
+        <activity
+            android:name=".Kirim_nomi"
+            android:label="Kirim nomi registratsiyasi"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Settings"></meta-data>
+        </activity>
+        <activity
+            android:name=".Hisobot_royh"
+            android:label="Hisobot"
+            android:parentActivityName=".AsosiyOyna"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AsosiyOyna"></meta-data>
+        </activity>
+        <activity
+            android:name=".Hisobot_umumiy"
+            android:label="Umumiy Hisobot"
+            android:parentActivityName=".Hisobot_royh"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hisobot_royh"></meta-data>
+        </activity>
+        <activity
+            android:name=".Hisobot_alohida"
+            android:label="Do&apos;konlar Hisoboti"
+            android:parentActivityName=".Hisobot_royh"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hisobot_royh"></meta-data>
+        </activity>
+        <activity
+            android:name=".Savdo_sana_yangi"
+            android:label="Savdo sanalari"
+            android:parentActivityName=".AsosiyOyna"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AsosiyOyna"></meta-data>
+        </activity>
+        <activity
+            android:name=".Savdo_royh_yangi"
+            android:label="Savdo ro&apos;yhati"
+            android:parentActivityName=".Savdo_sana_yangi"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Savdo_sana_yangi"></meta-data>
+        </activity>
+        <activity
+            android:name=".Kirim_sana"
+            android:label="Kirim sanalari"
+            android:parentActivityName=".AsosiyOyna"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AsosiyOyna"></meta-data>
+        </activity>
+        <activity
+            android:name=".Kirim_royh_yangi"
+            android:label="Kirim ro&apos;yhati"
+            android:parentActivityName=".Kirim_sana"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Kirim_sana"></meta-data>
+        </activity>
+        <activity
+            android:name=".Chiqim_royh_yangi"
+            android:label="Chiqim ro&apos;yhati"
+            android:parentActivityName=".Chiqim_sana"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Chiqim_sana"></meta-data>
+        </activity>
+        <activity
+            android:name=".Chiqim_sana"
+            android:label="Chiqim sanalari"
+            android:parentActivityName=".AsosiyOyna"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AsosiyOyna"></meta-data>
+        </activity>
+        <activity
+            android:name=".Qarzdorlar_add"
+            android:label="Qarzdorlar registratsiyasi"
+            android:parentActivityName=".Qarzdorlar_sana_yangi"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Qarzdorlar_sana_yangi"></meta-data>
+        </activity>
+        <activity
+            android:name=".Tanish_ismi"
+            android:label="Tanishlar ro\&apos;yhati"
+            android:parentActivityName=".Settings"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Settings"></meta-data>
+        </activity>
+        <activity
+            android:name=".Qarzdorlar_royh"
+            android:label="Qarzdorlar ro\&apos;yhati"
+            android:parentActivityName=".Qarzdorlar_sana_yangi"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Qarzdorlar_sana_yangi"></meta-data>
+        </activity>
+        <activity
+            android:name=".Qarzdorlar_sana_yangi"
+            android:label="Barcha qarzdorlar ro\&apos;yhati"
+            android:parentActivityName=".AsosiyOyna"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AsosiyOyna"></meta-data>
+        </activity>
+        <activity
+            android:name=".Qarzlarim_add"
+            android:label="Qarzlarim registratsiyasi"
+            android:parentActivityName=".Qarzlarim_sana"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Qarzlarim_sana"></meta-data>
+        </activity>
+        <activity
+            android:name=".Qarzlarim_royh"
+            android:label="Qarzlarim ro\&apos;yhati"
+            android:parentActivityName=".Qarzlarim_sana"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Qarzlarim_sana"></meta-data>
+        </activity>
+        <activity
+            android:name=".Qarzlarim_sana"
+            android:label="Barcha qarzlarim ro\&apos;yhati"
+            android:parentActivityName=".AsosiyOyna"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AsosiyOyna"></meta-data>
+        </activity>
+        <activity
+            android:name=".Qarzdorlar_izox"
+            android:label="Ushbu haqqim ma'lumotlari"
+            android:parentActivityName=".Qarzdorlar_royh"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Qarzdorlar_royh"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".Qarzlarim_izox"
+            android:label="Ushbu qarzim ma'lumotlari"
+            android:parentActivityName=".Qarzlarim_royh"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Qarzlarim_royh"></meta-data>
+        </activity>
+    </application>
+
+</manifest>
